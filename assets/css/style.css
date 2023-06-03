@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');  
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #0A0837;
+        }
+
+        #kotak {
+            display: flex;
+            background: #0A0837;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            height: 100vh;
+        }
+
+        input {
+            margin-top: 4px;
+            margin-bottom: 15px;
+            width: 300px;
+            height: 26px;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 0.7rem;
+            background: #f1f1f1;
+            color: black;
+        }
+
+        .notif {
+            font-weight: 300;
+            font-size: 14px;
+            color: white;
+            color: red;
+            display: none;
+        }
+
+        .judul {
+            font-weight: 600;
+            font-size: 24px;
+            margin-bottom: 5%;
+            color: white;
+        }
+
+        label {
+            font-weight: 500;
+            font-size: 1rem;
+            color: white;
+        }
+
+        #btnLogin {
+            width: 330px;
+            border-radius: 0.5rem;
+            padding: 0.5rem 1rem;
+            font-size: 0.7rem;
+            font-weight: 600;
+            background: #0167BA;
+            border: none;
+            color: whitesmoke;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+
+        #btnLogin:hover {
+            background: transparent;
+            border: 1px solid #0167BA;
+        }
+
+        #btnReset {
+            width: 121vh;
+            border-radius: 5px;
+            padding: 4px;
+            background: #0167BA;
+            border: none;
+            color: whitesmoke;
+            cursor: pointer;
+        }
+
+        #btnReset:hover {
+            border: 1px solid #0167BA;
+            background: transparent;
+            color: whitesmoke;
+        }
+
+        #game {
+            margin-left: 21%;
+            margin-top: 5%;
+            justify-content: center;
+            display: none;
+        }
+
+        canvas {
+            background: rgb(249, 249, 249);
+        }
