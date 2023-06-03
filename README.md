@@ -1,5 +1,5 @@
 # login
-# username dan password ada pada file login.js
+username dan password ada pada file login.js
 
 # view
 
